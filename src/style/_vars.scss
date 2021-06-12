@@ -1,0 +1,109 @@
+:root {
+  // Primary
+  --back: hsla(39, 100%, 99%);
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --dark-desaturated-cyan: hsl(167, 40%, 24%);
+  --dark-blue: hsl(198, 62%, 26%);
+  --dark-moderate-cyan: hsl(168, 34%, 41%);
+
+  // Neutral
+  --desaturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.content-wrapper {
+  width: 327px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.128571px;
+  background: var(--back);
+  color: var(--dark-grayish-blue);
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 6.25px;
+  color: var(--white);
+  margin: 0;
+}
+
+h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: -0.228571px;
+  color: var(--desaturated-blue);
+  margin: 0;
+}
+
+h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 4px;
+  color: var(--grayish-blue);
+  margin: 0;
+}
+
+h4 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.128571px;
+  color: var(--desaturated-blue);
+  margin: 0;
+}
+
+h6 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: -0.1px;
+  color: var(--grayish-blue);
+  margin: 0;
+}
+
+/**
+* ? DeskTop
+*/
+@media (min-width: 1440px) {
+  .content-wrapper {
+    width: 1352px;
+  }
+
+  h1 {
+    font-size: 56px;
+    line-height: 69px;
+    letter-spacing: 8.75px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 5px;
+  }
+}
