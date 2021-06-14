@@ -1,0 +1,77 @@
+#first {
+  .in-section {
+    background: var(--back);
+
+    img {
+      width: 375px;
+      height: 312px;
+    }
+
+    .text-block {
+      padding: 64px 24px;
+      text-align: center;
+
+      p {
+        margin: 24px 0 32px;
+      }
+
+      .more {
+        color: var(--desaturated-blue);
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: -8px;
+          top: 11px;
+          height: 10px;
+          width: 137px;
+          opacity: 0.25;
+          border-radius: 28px;
+        }
+
+        &.yellow::after {
+          background: var(--yellow);
+        }
+
+        &.red::after {
+          background: var(--soft-red);
+        }
+      }
+    }
+
+    #part3 {
+      .card {
+        width: 375px;
+        height: 600px;
+        margin: 0 auto;
+        padding: 398px 24px 59px;
+        text-align: center;
+
+        &#graphic {
+          background: url("../assets/mobile/image-graphic-design.jpg");
+          background-size: contain;
+          background-position: top;
+          color: var(--dark-desaturated-cyan);
+        }
+
+        &#photo {
+          background: url("../assets/mobile/image-photography.jpg");
+          background-size: contain;
+          background-position: top;
+          color: var(--dark-blue);
+        }
+      }
+    }
+  }
+}
+
+/**
+* ? DeskTop
+*/
+@media (min-width: 1440px) {
+  #first {
+  }
+}

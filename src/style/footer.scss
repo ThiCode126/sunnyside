@@ -1,0 +1,45 @@
+footer {
+  .in-footer {
+    .images {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 0;
+
+      img {
+        width: 188px;
+        height: 188px;
+      }
+    }
+
+    .footer-info {
+      padding: 64px 39px;
+      background: var(--bark-green);
+      text-align: center;
+
+      .logo {
+        svg {
+          path {
+            fill: var(--green-logo);
+          }
+        }
+      }
+
+      .menu {
+        margin-top: 40px;
+        margin-bottom: 88px;
+        display: flex;
+        justify-content: space-between;
+        color: var(--dark-moderate-cyan);
+      }
+
+      .social {
+        display: flex;
+        justify-content: space-between;
+        width: 164px;
+        height: 20px;
+        margin: 0 auto;
+      }
+    }
+  }
+}

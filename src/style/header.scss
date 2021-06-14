@@ -1,0 +1,80 @@
+header {
+  background: url("../assets/mobile/image-header.jpg");
+  background-size: contain;
+  background-position: top;
+  width: 375px;
+  height: 538px;
+  margin: 0 auto;
+
+  .in-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+
+    .menu-mobile {
+      position: relative;
+
+      &.closed {
+        .menu {
+          display: none;
+        }
+      }
+
+      &.open {
+        .menu {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 32px;
+          position: absolute;
+          top: 50px;
+          right: 0;
+          width: 329px;
+          background: var(--back);
+          padding-top: 63px;
+          padding-bottom: 39px;
+
+          div {
+            width: 140px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &.button {
+              background: var(--yellow);
+              color: var(--desaturated-blue);
+              border-radius: 28px;
+              height: 56px;
+              letter-spacing: -0.107143px;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #title {
+    margin-top: 88px;
+    margin-bottom: 52px;
+    text-align: center;
+  }
+
+  .arrow-down {
+    width: 30px;
+    margin: 0 auto;
+  }
+}
+
+/**
+* ? DeskTop
+*/
+@media (min-width: 1440px) {
+  header {
+    background: url("../assets/desktop/image-header.jpg");
+    background-size: contain;
+    background-position: top;
+    width: 1440px;
+    height: 800px;
+  }
+}

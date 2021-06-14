@@ -1,0 +1,28 @@
+#second {
+  .in-section {
+    padding-top: 64px;
+    padding-bottom: 86px;
+    text-align: center;
+    background: var(--back);
+
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 64px;
+      padding-top: 64px;
+
+      .card {
+        img {
+          width: 72px;
+          height: 72px;
+          border-radius: 50%;
+        }
+
+        p {
+          margin: 32px 0;
+          color: var(--very-dark-grayish-blue);
+        }
+      }
+    }
+  }
+}
