@@ -26,3 +26,29 @@
     }
   }
 }
+
+/**
+* ? DeskTop
+*/
+@media (min-width: 1440px) {
+  #second {
+    .in-section {
+      padding-top: 160px;
+      padding-bottom: 160px;
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+        gap: 30px;
+        padding-top: 81px;
+
+        .card {
+          p {
+            margin: 58px 0 69px;
+            color: var(--very-dark-grayish-blue);
+          }
+        }
+      }
+    }
+  }
+}

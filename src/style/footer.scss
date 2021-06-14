@@ -43,3 +43,30 @@ footer {
     }
   }
 }
+
+/**
+* ? DeskTop
+*/
+@media (min-width: 1440px) {
+  footer {
+    .in-footer {
+      .images {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        gap: 0;
+
+        img {
+          width: 360px;
+          height: 447px;
+        }
+      }
+
+      .footer-info {
+        padding: 72px 571px;
+        background: var(--bark-green);
+        text-align: center;
+      }
+    }
+  }
+}

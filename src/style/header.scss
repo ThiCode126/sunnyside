@@ -45,13 +45,20 @@ header {
               color: var(--desaturated-blue);
               border-radius: 28px;
               height: 56px;
-              letter-spacing: -0.107143px;
-              text-transform: uppercase;
             }
           }
         }
       }
     }
+  }
+
+  .button {
+    font-family: "Fraunces", serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.107143px;
+    text-transform: uppercase;
   }
 
   #title {
@@ -76,5 +83,34 @@ header {
     background-position: top;
     width: 1440px;
     height: 800px;
+
+    .in-header {
+      padding-top: 34px;
+
+      .menu-desktop {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        gap: 47px;
+        color: #ffffff;
+
+        div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          &.button {
+            background: rgba(255, 255, 255, 0.25);
+            width: 140px;
+            height: 56px;
+            border-radius: 28px;
+          }
+        }
+      }
+    }
+
+    #title {
+      margin-top: 108px;
+      margin-bottom: 96.54px;
+    }
   }
 }

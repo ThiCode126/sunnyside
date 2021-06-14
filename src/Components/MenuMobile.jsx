@@ -20,7 +20,7 @@ const MenuMobile = () => {
         <div>About</div>
         <div>Services</div>
         <div>Projects</div>
-        <div className="button cta">Contact</div>
+        <div className="button">Contact</div>
       </div>
     </div>
   );

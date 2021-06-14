@@ -73,5 +73,54 @@
 */
 @media (min-width: 1440px) {
   #first {
+    .in-section {
+      #part1 {
+        display: flex;
+        flex-direction: row-reverse;
+
+        .text-block {
+          padding: 158px 110px 157px 165px;
+          text-align: left;
+        }
+      }
+      #part2 {
+        display: flex;
+        flex-direction: row;
+
+        .text-block {
+          padding: 157px 165px 157px 110px;
+          text-align: left;
+        }
+      }
+
+      img {
+        width: 720px;
+        height: 600px;
+      }
+
+      #part3 {
+        display: flex;
+
+        .card {
+          width: 720px;
+          height: 600px;
+          margin: 0 auto;
+          padding: 398px 190px 59px;
+          text-align: center;
+
+          &#graphic {
+            background: url("../assets/desktop/image-graphic-design.jpg");
+            background-size: contain;
+            background-position: top;
+          }
+
+          &#photo {
+            background: url("../assets/desktop/image-photography.jpg");
+            background-size: contain;
+            background-position: top;
+          }
+        }
+      }
+    }
   }
 }
