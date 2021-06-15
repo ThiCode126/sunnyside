@@ -11,7 +11,7 @@ const FirstSection = ({ device }) => {
               alt="transform"
             />
             <div className="text-block">
-              <h2>Transform your Brand</h2>
+              <h2>Transform your brand</h2>
               <p>
                 We are a full-service creative agency specializing in helping
                 brands grow fast. Engage your clients through compelling visuals

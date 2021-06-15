@@ -63,6 +63,12 @@
           background-position: top;
           color: var(--dark-blue);
         }
+
+        p {
+          font-size: 16px;
+          line-height: 27px;
+          letter-spacing: -0.114286px;
+        }
       }
     }
   }
@@ -79,8 +85,12 @@
         flex-direction: row-reverse;
 
         .text-block {
-          padding: 158px 110px 157px 165px;
+          padding: 158px 110px 0 165px;
           text-align: left;
+
+          p {
+            margin: 32px 0 40px;
+          }
         }
       }
       #part2 {
@@ -88,8 +98,12 @@
         flex-direction: row;
 
         .text-block {
-          padding: 157px 165px 157px 110px;
+          padding: 157px 165px 0 110px;
           text-align: left;
+
+          p {
+            margin: 33px 0 40px;
+          }
         }
       }
 
