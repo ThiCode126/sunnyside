@@ -30,7 +30,15 @@ footer {
         margin-bottom: 88px;
         display: flex;
         justify-content: space-between;
-        color: var(--dark-moderate-cyan);
+
+        div {
+          color: var(--dark-moderate-cyan);
+          cursor: pointer;
+
+          &:hover {
+            color: #fff;
+          }
+        }
       }
 
       .social {
@@ -39,6 +47,16 @@ footer {
         width: 164px;
         height: 20px;
         margin: 0 auto;
+
+        svg {
+          cursor: pointer;
+
+          &:hover {
+            path {
+              fill: #fff;
+            }
+          }
+        }
       }
     }
   }

@@ -22,6 +22,10 @@
           margin: 32px 0;
           color: var(--very-dark-grayish-blue);
         }
+
+        h5 {
+          margin-bottom: 9px;
+        }
       }
     }
   }
@@ -40,7 +44,7 @@
         display: grid;
         grid-template-columns: repeat(3, 350px);
         gap: 30px;
-        padding-top: 81px;
+        padding: 81px 121px 0;
 
         .card {
           p {

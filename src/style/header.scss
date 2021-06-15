@@ -99,10 +99,17 @@ header {
           justify-content: center;
 
           &.button {
-            background: rgba(255, 255, 255, 0.25);
+            background: #fff;
+            color: var(--desaturated-blue);
             width: 140px;
             height: 56px;
             border-radius: 28px;
+            cursor: pointer;
+
+            &:hover {
+              background: rgba(255, 255, 255, 0.25);
+              color: #fff;
+            }
           }
         }
       }
